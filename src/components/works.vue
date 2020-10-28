@@ -13,6 +13,11 @@
                 <h3>ゲームアプリ</h3>
                 <p>ミニゲームが遊べるアプリです。</p>
             </a>
+
+            <a href="https://github.com/M-kubo102/todo_vue.git" class="workLink" target="_blank" rel="noopener noreferrer">
+                <h3>メモアプリ</h3>
+                <p>ToDo等をメモできるアプリです。</p>
+            </a>
         </section>
 
     </div>
@@ -37,7 +42,7 @@ export default {
     .workContainer{
         display: flex;
         justify-content: space-between;
-        width: 500px;
+        width: 800px;
         margin: 10px auto;
         margin-bottom: 50px;
     }
