@@ -18,6 +18,11 @@
                 <h3>メモアプリ</h3>
                 <p>ToDo等をメモできるアプリです。</p>
             </a>
+
+            <a href="https://github.com/M-kubo102/note-vue.git" class="workLink" target="_blank" rel="noopener noreferrer">
+                <h3>学習ノート</h3>
+                <p>Vue.jsの学習ノートです。</p>
+            </a>
         </section>
 
     </div>
@@ -40,11 +45,13 @@ export default {
     }
 
     .workContainer{
-        display: flex;
-        justify-content: space-between;
+        display: grid;
         width: 800px;
         margin: 10px auto;
         margin-bottom: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: 200px;
+        gap: 20px;
     }
 
     .workLink{
