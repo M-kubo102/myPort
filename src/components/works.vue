@@ -23,6 +23,11 @@
                 <h3>学習ノート</h3>
                 <p>Vue.jsの学習ノートです。</p>
             </a>
+
+            <a href="https://github.com/M-kubo102/shop_vue.git" class="workLink" target="_blank" rel="noopener noreferrer">
+                <h3>ショッピング</h3>
+                <p>ショッピングサイトです。</p>
+            </a>
         </section>
 
     </div>
