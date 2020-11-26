@@ -2,14 +2,10 @@
     <section class="about">
         <div class="profile">
             <section>
-                <span>
-                    <svg viewBox="0 0 24 24">
-                        <path :d="icon" />
-                    </svg>
-                </span>
+                <img :src="imgSrc">
                 <div class="info">
-                        <h2 class="name">サイト太郎</h2>
-                        <p class="bio">Webサイト作成を勉強しています。</p>
+                        <h2 class="name">MO</h2>
+                        <p class="bio">色々勉強中です。</p>
                 </div>
             </section>
         </div>
@@ -17,26 +13,24 @@
         <div class="history">
             <h2>経歴</h2>
             <ul>
-                <li>19xx年mm月dd日生まれ　東京都在住</li>
-                <li>○○大XX学部卒（20xx年3月）</li>
+                <li>1996年10月22日生まれ　茨城在住</li>
+                <li>川村学園女子大学文学部卒（2019年3月）</li>
             </ul>
 
-            <h2>技術</h2>
+            <h2>勉強中の技術</h2>
             <ul>
                 <li>Java</li>
-                <li>HTML/CSS/JavaScript</li>
+                <li>HTML / CSS / JavaScript / Vue.js</li>
             </ul>
         </div>
     </section>
 </template>
 
 <script>
-import { mdiAccountTie } from '@mdi/js'
-
 export default {
     data(){
         return{
-            icon: mdiAccountTie
+            imgSrc: require('@/assets/hiyoko_baby.png')
         }
     }
 }
@@ -58,9 +52,9 @@ export default {
         padding: 10px;
     }
 
-    svg{
-        width: 100px;
-        height: 100px;
+    img{
+        width: 120px;
+        height: 120px;
         padding: 12px;
     }
 

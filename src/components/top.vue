@@ -1,8 +1,7 @@
 <template>
     <div class="textbox">
-        <h1>Welcome!!</h1>
-        <p>こんにちは！ここは私のウェブサイトです！</p>
-        <p>ポートフォリオとして活動を記録していくためのサイトです。よろしくお願いします！</p>
+        <h1>☆Welcome☆</h1>
+        <p>Webサイト作成練習 兼 学習まとめ</p>
     </div>
 </template>
 

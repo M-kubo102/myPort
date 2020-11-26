@@ -1,12 +1,12 @@
 <template>
     <header>
         <div class="logo">
-            <h1>Website</h1>
+            <h1><router-link to="/">Website</router-link></h1>
         </div>
         <div class="container">
             <ul class="menu">
-                <li><router-link to="/" class="btn"><span class="btn-text">Top</span></router-link></li>
                 <li><router-link to="/about" class="btn"><span class="btn-text">About</span></router-link></li>
+                <li><router-link to="/study" class="btn"><span class="btn-text">Study</span></router-link></li>
                 <li><router-link to="/works" class="btn"><span class="btn-text">Works</span></router-link></li>
                 <li><router-link to="/contact" class="btn"><span class="btn-text">Contact</span></router-link></li>
             </ul>
@@ -23,7 +23,6 @@ export default {
 
 <style>
     header{
-        color: #333;
         width: 100%;
         height: 64px;
         background: olive;
@@ -33,8 +32,11 @@ export default {
     .logo{
         line-height: 15px;
         margin: 0 24px;
-        color: #fff;
         font-size: 18px;
+    }
+
+    .logo h1 a{
+        color: #fff;
     }
 
     .menu{

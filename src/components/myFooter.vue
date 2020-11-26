@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>©2020 website-taro</p>
+        <p>2020 MO</p>
     </footer>
 </template>
 
@@ -12,8 +12,11 @@ export default {
 
 <style>
     footer{
-        font-size: 14px;
-        color: #999999;
+        font-size: 12px;
+        color: #fff;
         text-align: center;
+        background: #777;
+        height: 20px;
+        line-height: 20px;
     }
 </style>

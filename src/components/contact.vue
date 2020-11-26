@@ -4,6 +4,8 @@
         <section>
             <p>お問い合わせはメールアドレス、または下記フォームよりお願い致します。</p>
             <p>メールアドレス：　xxxxx[at]gmail.com</p>
+
+            <p id="caution">※フォーム作成の練習用ページ。送信押しても何も起こりません。</p>
         </section>
         <contactForm></contactForm>
     </div>
@@ -33,5 +35,9 @@ export default {
 
     .contact section p:nth-child(2){
         font-size: 14px;
+    }
+
+    #caution{
+        color: #c92424;
     }
 </style>

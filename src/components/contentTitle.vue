@@ -14,8 +14,8 @@ export default {
     .content{
         color: #333;
         text-align: center;
-        padding: 32px;
+        padding: 20px;
         width: 800px;
-        margin: 8px auto;
+        margin: 10px auto;
     }
 </style>
