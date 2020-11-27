@@ -13,9 +13,8 @@ export default {
 <style>
     footer{
         font-size: 12px;
-        color: #fff;
+        color: #777;
         text-align: center;
-        background: #777;
         height: 20px;
         line-height: 20px;
     }

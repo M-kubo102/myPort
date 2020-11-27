@@ -46,7 +46,7 @@
             <textarea id="content" v-model="form.content"></textarea>
         </div>
 
-        <button type="submit">送信</button>
+        <button type="submit" @click="send">送信</button>
     </div>
 </template>
 
@@ -87,6 +87,9 @@ export default {
                     }
                 })(),
             }
+        },
+        send(){
+            alert('お問い合わせありがとうございます！');
         }
     }
 }
